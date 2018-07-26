@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: dsNulWBMfE0vXNflBqEaPcgmTuNO6U/ZGw9X88tLkbC5A5lDGrj+guVZMHpeUqvOUbNDPpGXVUzKrGs1aaQsXrdyODw4X/GVjE0PEjJ67GkdQD0HaYXj+LajvlE5vfefxtltz1cuw1n/Ii5wzuotBZKXecPkuy3I7Qt3397PooKQAvVS36lbmFVCYTEZOC125AjiKl0T8Rwdifpn/gBF6/xPcdtBIcGjTvckBFakm2Ze0rZeDp4y/GxJhZ2nG2MYL5f6EN+h6dpLHbHL1fiba2r04jByWP1oidhhXafLN2kR8CV0Dv6y/mJpIgODTzbc1/XE3pkFT9Nt1LnV6kbGq1BcGSBwNGBhjs0iSqSzzUFFt/kcxCjKY1dyLeQgeek+9NN70M13sWpeGnAEXEB5Wlbkk14nxc5Z2JCksYU96BbqktS064k8DK+Ax+uyWgojG1jpdba//EuHZwdFj/6Kfbaog8AUEdRsX6h6OEIr6RMQuPk9IA4p8cVGhGFPpAV51Gtw8/tiY6e2GGQLpRFJEFtQxlAPwcEGY4Bv+bWTgnH6gFjujIg0vkHL7o8xbNM5y/4Icl3u8mID2wjcTUCt/Kq+uSr5yyFeLuL5ija1L3OR20R0v9NvF3KXyDVT7O61cKHbHN5ltIIaiK4x/1qwgyk4vfCGrgvXXqyuuPOoNGQ=
+  app: fast-everglades-44170
+  on:
+    repo: abrentgit/mongoose-test-blog-challenge-3
